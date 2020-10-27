@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17280719, g: 0.21594538, b: 0.29788864, a: 1}
+  m_IndirectSpecularColor: {r: 0.17280708, g: 0.21594499, b: 0.29788813, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -334,7 +334,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &427002221
 MonoBehaviour:
@@ -362,6 +362,134 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa850fbd5b8aded44846f96e35f1a9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &885358091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 885358093}
+  - component: {fileID: 885358092}
+  m_Layer: 0
+  m_Name: WebXR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &885358092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885358091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef9c55b3dd1f421b94418b8ae075835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HideStartButton: 0
+  LeftInput:
+    Select:
+      m_PersistentCalls:
+        m_Calls: []
+    SelectStart:
+      m_PersistentCalls:
+        m_Calls: []
+    SelectEnd:
+      m_PersistentCalls:
+        m_Calls: []
+    Squeeze:
+      m_PersistentCalls:
+        m_Calls: []
+    SqueezeStart:
+      m_PersistentCalls:
+        m_Calls: []
+    SqueezeEnd:
+      m_PersistentCalls:
+        m_Calls: []
+    Available: 0
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 0}
+    IsPositionTracked: 0
+    AxesCount: 0
+    ButtonsCount: 0
+    TargetRayMode: 0
+    Selected: 0
+    Squeezed: 0
+  RightInput:
+    Select:
+      m_PersistentCalls:
+        m_Calls: []
+    SelectStart:
+      m_PersistentCalls:
+        m_Calls: []
+    SelectEnd:
+      m_PersistentCalls:
+        m_Calls: []
+    Squeeze:
+      m_PersistentCalls:
+        m_Calls: []
+    SqueezeStart:
+      m_PersistentCalls:
+        m_Calls: []
+    SqueezeEnd:
+      m_PersistentCalls:
+        m_Calls: []
+    Available: 0
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 0}
+    IsPositionTracked: 0
+    AxesCount: 0
+    ButtonsCount: 0
+    TargetRayMode: 0
+    Selected: 0
+    Squeezed: 0
+  InputSourceSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  InputSourceSqueeze:
+    m_PersistentCalls:
+      m_Calls: []
+  InputSourceSelectStart:
+    m_PersistentCalls:
+      m_Calls: []
+  InputSourceSelectEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  InputSourceSqueezeStart:
+    m_PersistentCalls:
+      m_Calls: []
+  InputSourceSqueezeEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  InputSourcesChange:
+    m_PersistentCalls:
+      m_Calls: []
+  SimulationIsArSupported: 1
+  SimulationIsVrSupported: 0
+  SimulationRender2Eyes: 0
+  SimulationMode: 1
+  SimulationLeftSelect: 0
+  SimulationRightSelect: 0
+  SimulationUserHeight: 1.8
+--- !u!4 &885358093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885358091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1015722065
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +581,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 87.517006, y: 0, z: 0}
 --- !u!114 &1015722068
 MonoBehaviour:
@@ -517,7 +645,7 @@ Transform:
   m_Children:
   - {fileID: 282840814}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1335839536
 MonoBehaviour:
@@ -657,7 +785,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5977163237366113874
 PrefabInstance:
@@ -724,7 +852,7 @@ PrefabInstance:
     - target: {fileID: 5977163238016480459, guid: 29251f2f7c5044cce8e7eb862b4d93ef,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5977163238016480459, guid: 29251f2f7c5044cce8e7eb862b4d93ef,
         type: 3}
